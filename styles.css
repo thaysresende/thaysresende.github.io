@@ -1,0 +1,105 @@
+* {
+    transition: 0.6s;
+}
+
+body {
+    background: #DCDCDC;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.info-card {
+    padding: 10rem 2rem;
+    justify-self: center;
+    max-width: 25rem;
+}
+
+.info {
+    background: #b6adf7;
+    padding: 2rem;
+    border: 0.2rem solid #0e0831;
+    border-radius: 1rem;
+    margin: auto;
+}
+
+.info h1 {
+    font: 600 2rem Nunito;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.info h2 {
+    font: 300 1.2rem Nunito;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.info p {
+    font: 600 1rem Nunito;
+    text-align: center;
+}
+
+.info:hover {
+    box-shadow: 0px 0px 10px #0e0831;
+}
+
+.projects {
+    justify-content: center;
+}
+
+.projects .card {
+    max-width: 50rem;
+    padding: 2rem;
+    background: #0e0831;
+    color: #f0f0f0;
+    justify-content: center;
+    margin: 1rem auto 1rem;
+    border-radius: 1rem;
+}
+
+.projects .card img {
+    width: 100%;
+    border-radius: 0.3rem;
+    margin: auto;
+}
+
+.projects .card img:hover {
+    box-shadow: 0px 0px 20px #f0f0f0;
+}
+
+.projects .card h2 {
+    font: 600 1.5rem Nunito;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.projects .card h3 {
+    font: 600 1rem Nunito;
+    text-align: center;
+}
+
+.projects .card p {
+    font: 300 1rem Nunito;
+    text-align: justify;
+}
+
+.projects .card p code {
+    font-size: 1.3rem;
+}
+
+.projects .card .icon {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 12rem;
+    margin: auto;
+}
+
+.projects .card .icon img {
+    width: 2rem;
+    margin: auto;
+}
+
+.projects .card .icon img:hover {
+    box-shadow: none;
+}

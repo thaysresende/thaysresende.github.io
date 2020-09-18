@@ -3,18 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Portfólio</title>
 </head>
 <body>
-    <header>
-        Portfólio - Thays Resende Achucarro
-    </header>
-    
+    <div class="info-card">
+        <div class="info">
+            <h1>Thays Resende Achucarro</h1>
+            <h2> <code>HTML</code> | <code>CSS</code> | <code>JS</code> </h2>
+            <p>thaysresende24@gmail.com</p>
+        </div>
+    </div>
+    <div class="projects">
+        <div class="card">
+            <a href="https://thaysresende.github.io/explorable-explanation/">
+                <img src="./img/ee-tcc.png"/>
+            </a>
+            <h2>Projeto de Conclusão de Curso</h2>
+            <h3>Tecnologias utilizadas:</h3>
+            <div class="icon">
+                <img src="./icons/css3-brands.svg"/>
+                <img src="./icons/html5-brands.svg"/>
+                <img src="./icons/js-square-brands.svg"/>
+            </div>
+            <p>Projeto de conclusão de curso realizado sob a supervisão do Professor Me. Rodrigo Porfírio da Silva Sacchi. Foi desenvolvida uma Explorable Explanation sobre tópicos iniciais da disciplina de sistemas distribuídos. Uma explorable explanation é um <code>web app</code> interativo que reúne conteúdos descritivos e pequenas simulações interativas que permitem que o usuário teste e observe o conteúdo do site. O <code>web app</code> foi desenvolvido também por Gabriele Paloma Vieira Rodrigues.</p>
+        </div>
+        <div class="card">
+            <a href="https://thaysresende.github.io/first-dashboard/">
+                <img src="./img/dashboard.png"/>
+            </a>
+            <h2>Primeira Dashboard - SP Trans</h2>
+            <h3>Tecnologias utilizadas:</h3>
+            <div class="icon">
+                <img src="./icons/css3-brands.svg"/>
+                <img src="./icons/html5-brands.svg"/>
+                <img src="./icons/js-square-brands.svg"/>
+                <img src="./icons/vuejs-brands.svg"/>
+            </div>
+            <p>Primeira dashboard construída utilizando algumas funções da framework <code>Vue.js</code>, consumo de <code>API Rest</code> e utilização da <code>Maps JavaScript API</code> da Google. A API Olho Vivo foi consumida utilizando a tecnologia <code>fetch</code>. O objetivo da dashboard é fornecer uma plataforma para visualização da localização dos ônibus da cidade de São Paulo, previsão de chegada e pontos de parada das linhas.</p>
+        </div>
+        <div class="card">
+            <a href="https://coresdoamanha.netlify.app">
+                <img src="./img/cores.png"/>
+            </a>            
+            <h2>Site ONG Cores do Amanhã</h2>
+            <h3>Tecnologias utilizadas:</h3>
+            <div class="icon">
+                <img src="./icons/css3-brands.svg"/>
+                <img src="./icons/html5-brands.svg"/>
+                <img src="./icons/js-square-brands.svg"/>
+                <img src="./icons/react-brands.svg"/>
+            </div>
+            <p>Site em desenvolvimento sob a supervisão da organização Invenção Z. O site está sendo desenvolvido de forma voluntária para a ONG Cores do Amanhã (Recife-PE). Está sendo utilizada a tecnologia <code>React</code> para trabalho com componentes e reuso de códigos. O design foi desenvolvido por Amanda Maluf.</p>
+        </div>
+    </div>    
 </body>
-<style>
-    header {
-        background-color: #fcfcfc;
-        text-align: left;
-    }
-</style>
 </html>
